@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.IndianCensusTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-03T09:46:49" hostname="DESKTOP-6PP3VIO" time="0.048">
+<testsuite name="com.bridgelabz.IndianCensusTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2023-03-03T09:54:43" hostname="DESKTOP-6PP3VIO" time="0.028">
   <properties/>
-  <testcase name="shouldReturnRecordsif_CSVFileIsDetected()" classname="com.bridgelabz.IndianCensusTest" time="0.048">
-    <failure message="java.util.NoSuchElementException" type="java.util.NoSuchElementException">java.util.NoSuchElementException
-	at java.base/java.util.Spliterators$1Adapter.next(Spliterators.java:688)
-	at com.bridgelabz.IndianCensusAnalyser.lambda$loadCensusData$0(IndianCensusAnalyser.java:24)
-	at java.base/java.util.LinkedList$LLSpliterator.forEachRemaining(LinkedList.java:1242)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-	at com.bridgelabz.IndianCensusAnalyser.loadCensusData(IndianCensusAnalyser.java:21)
-	at com.bridgelabz.IndianCensusTest.shouldReturnRecordsif_CSVFileIsDetected(IndianCensusTest.java:35)
+  <testcase name="returnSize()" classname="com.bridgelabz.IndianCensusTest" time="0.028">
+    <failure message="java.lang.NullPointerException: Cannot invoke &quot;com.bridgelabz.IndianCensusAnalyser.loadCensusData(String)&quot; because &quot;this.analyser&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;com.bridgelabz.IndianCensusAnalyser.loadCensusData(String)&quot; because &quot;this.analyser&quot; is null
+	at com.bridgelabz.IndianCensusTest.returnSize(IndianCensusTest.java:16)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
